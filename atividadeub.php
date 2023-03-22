@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marco Davi">
+    <!-- Responsável pela aparência  -->
     <link rel="stylesheet" href="atividadeub.css"/>
     <title>Atividade</title>
 </head>
 
 <body>
-    <header class="cabeçalho"><img src="brasaounibra.png" width="100" ></header>
+    <header class="cabeçalho"><img src="logounibraazul.png"></header>
+    <!-- Tanto a tag Main quanto a Section são um espécie de divisão para a página(Tags Semânticas) -->
     <main>
         <section class="principal">
         <div class="cartao">
+           <!-- H é uma espécie de título -->
             <h4>[FOR]</h4>
             <?php
+            //Laço FOR precisando das três condições para funcionar.
             for ($i = 0; $i < 15; $i++) {
                 if ($i != 2 and $i != 7) {
 
